@@ -7,7 +7,7 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: X.du
 language:
 timezone:
 
@@ -80,5 +80,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/xdu/xdu.github.io.git
+  repo: https://github.com/xdu/xdu.github.io
   branch: master
