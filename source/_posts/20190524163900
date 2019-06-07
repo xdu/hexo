@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
 ```
 
-The header is a UI text component with the modifiers **text30 dark10 marginB-20**. The modifiers helps to create a styled component easily and quickly. Modifiers are processed and converted to styles by **src\commons\modifiers.js**.
+The header is a UI text component with the modifiers **text30 dark10 marginB-20**. The modifiers helps to create a styled component easily and quickly. Modifiers are processed and converted to styles by **src\commons\modifiers.js**. You don't need to import any package to use the modifiers because they are processed by the modifiers.js.
 
 By using lodash.map on the BorderRadiues object, it extracts the pre-defined styles, such as: **br0, br10, br20** and builds an example for each.
 
@@ -30,3 +30,5 @@ The example view is placed in the center of the parent view and the label view i
     left: 5,
   },
 ```
+
+What js does when _map on a package or object ?
