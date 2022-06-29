@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Feed C.
-subtitle:
+title: 发现有趣的事
+subtitle: 书籍，电影，TV，文章
 description:
 keywords:
-author: X.du
-language: en
+author: 有趣
+language: 
+  - zh-CN
+  - en
 timezone: Europe/Paris
 
 # URL
