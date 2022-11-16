@@ -712,8 +712,8 @@ leancloud_visitors:
 firestore:
   enable: true
   collection: articles # Required, a string collection name to access firestore database
-  apiKey: AIzaSyAB7qRC15EvVPcj4nUZzCTDfTFNUZ4DHHc # Required
-  projectId: hexo-visitor-count # Required
+  apiKey: AIzaSyAyHmKllQAhx5Al2h4aWm4SzGk7bnvzcPo # Required
+  projectId: hexo-pages # Required
 
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
