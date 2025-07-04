@@ -1,1 +1,1 @@
-# private-hexo
+# hexo based
