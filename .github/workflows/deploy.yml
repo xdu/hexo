@@ -28,4 +28,7 @@ jobs:
       run: npx hexo generate
 
     - name: Deploy to gh-pages
-      run: npx hexo deploy
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        npx hexo deploy
