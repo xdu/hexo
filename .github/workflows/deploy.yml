@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Display hexo version
-      run : npx hexo init .
+      run : npx hexo version -v
       
     - name: Generate static files
       run: npx hexo generate
