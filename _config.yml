@@ -5,8 +5,8 @@ author: X.du
 language: en
 timezone: ''
 
-url: https://xdu.github.io/hexo-blog/
-root: /
+url: https://xdu.github.io/
+root: /hexo-blog
 permalink: :year/:month/:day/:title/
 permalink_defaults: {}
 
