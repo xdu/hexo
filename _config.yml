@@ -14,5 +14,6 @@ theme: next
 
 deploy:
   type: git
-  repo: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/xdu/hexo-blog.git
+  toke: $GITHUB_TOKEN
+  repo: https://github.com/xdu/hexo-blog.git
   branch: gh-pages
